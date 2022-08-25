@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "RereshLayout"
+include ':app'
+include ':refresh-drawable-paint'
+include ':refresh-drawable-path'
+include ':refresh-footer-ball'
+include ':refresh-header-classics'
+include ':refresh-header-two-level'
+include ':refresh-footer'
+include ':refresh-header-radar'
+include ':refresh-layout-kernel'
+include ':refresh-layout'
+include ':refresh-header-falsify'
+include ':refresh-footer-classics'
+include ':refresh-header'
+include ':refresh-header-material'
