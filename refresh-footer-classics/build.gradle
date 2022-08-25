@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 
+
 description = 'the footer ClassicsFooter of SmartRefreshLayout'
 
 android {
@@ -35,3 +36,5 @@ dependencies {
     api project(':refresh-drawable-paint')
     compileOnly project(':refresh-layout-kernel')
 }
+
+
