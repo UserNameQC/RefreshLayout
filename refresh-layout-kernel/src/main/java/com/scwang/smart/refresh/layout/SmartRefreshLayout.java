@@ -3721,16 +3721,16 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
 
         //<editor-fold desc="视图位移 Spinner">
 
-        /**
-         * 移动滚动 Scroll
-         * moveSpinner 的取名来自 谷歌官方的 { android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
-         * moveSpinner The name comes from { android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
-         * @param spinner 新的 spinner
-         * @param isDragging 是否是拖动产生的滚动
-         *                   只有，finishRefresh，finishLoadMore，overSpinner 的回弹动画才会是 false
-         *                   dispatchTouchEvent , nestScroll 等都为 true
-         *                   autoRefresh，autoLoadMore，需要模拟拖动，也为 true
-         */
+//        /**
+//         * 移动滚动 Scroll
+//         * moveSpinner 的取名来自 谷歌官方的 { android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
+//         * moveSpinner The name comes from { android.support.v4.widget.SwipeRefreshLayout#moveSpinner(float)}
+//         * @param spinner 新的 spinner
+//         * @param isDragging 是否是拖动产生的滚动
+//         *                   只有，finishRefresh，finishLoadMore，overSpinner 的回弹动画才会是 false
+//         *                   dispatchTouchEvent , nestScroll 等都为 true
+//         *                   autoRefresh，autoLoadMore，需要模拟拖动，也为 true
+//         */
         public RefreshKernel moveSpinner(final int spinner, final boolean isDragging) {
             if (mSpinner == spinner
                     && (mRefreshHeader == null || !mRefreshHeader.isSupportHorizontalDrag())
